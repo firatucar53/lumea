@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LUMEA — Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:44px 20px 60px; background:#04070f; color:#e7ecf6;
+         font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:820px; margin:0 auto; }
+  h1 { font-size:30px; color:#e8c37a; margin:0 0 8px; letter-spacing:.4px; font-weight:600; }
+  .sub { color:#8fa2c0; margin:0 0 30px; font-size:14px; }
+  h2 { font-size:20px; color:#e8c37a; margin:40px 0 12px; font-weight:600; }
+  h3 { font-size:16px; color:#d9c39a; margin:26px 0 8px; font-weight:600; }
+  p, li { color:#ccd7e9; }
+  ul, ol { padding-left:22px; }
+  li { margin:6px 0; }
+  a { color:#e8c37a; }
+  strong { color:#f2e7d2; }
+  .box { border:1px solid #23355c; background:#0a1021; border-radius:14px; padding:20px 22px; margin:24px 0; }
+  .box.warn { border-color:#5c4a23; background:#191204; }
+  .box h3 { margin-top:0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14.5px; }
+  th, td { border:1px solid #23355c; padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:#0d1730; color:#e8c37a; font-weight:600; }
+  td { color:#c3d0e6; }
+  code { background:#0d1730; border:1px solid #23355c; border-radius:5px; padding:1px 6px; font-size:13.5px; color:#e8c37a; }
+  .val { color:#f0c88a; font-weight:600; }
+  .ph { background:#3a2410; border:1px dashed #a5762e; border-radius:5px; padding:1px 7px; color:#f0c88a; font-weight:600; }
+  footer { margin-top:50px; padding-top:22px; border-top:1px solid #23355c; color:#8494b0; font-size:13px; }
+  .toc { columns:2; column-gap:30px; font-size:14.5px; }
+  /* Uzun paket adları ve URL'ler satır taşırmasın */
+  p, li, td, th { overflow-wrap:anywhere; }
+  @media (max-width:640px){
+    .toc { columns:1; }
+    /* Geniş tablolar dar ekranda yatay kaydırılabilir olsun; sayfanın tamamı
+       yana kaymasın diye tablo kendi kaydırma alanına alınır. */
+    table { display:block; width:100%; max-width:100%; overflow-x:auto;
+            -webkit-overflow-scrolling:touch; font-size:13px; }
+    th, td { padding:8px 10px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>LUMEA — Gizlilik Politikası</h1>
+<p class="sub">Son güncelleme: <strong>3 Ekim 2026</strong> · Politika sürümü 2.1 · Uygulama sürümü 1.1.0</p>
+
+<div class="box">
+  <h3>Özet</h3>
+  <ul>
+    <li>Tüm kokteyl tarifleri ve görselleri uygulamanın <strong>içine gömülüdür</strong>; tarifleri okumak için internet gerekmez.</li>
+    <li><strong>Ücretsiz sürüm reklam gösterir.</strong> Reklamlar Google AdMob tarafından sunulur ve bu sırada <strong>reklam kimliğiniz</strong> ile <strong>IP adresinizden çıkarılan yaklaşık konumunuz</strong> işlenir.</li>
+    <li><strong>"Reklamları kaldır"</strong> satın alırsanız reklam yazılımı <strong>hiç başlatılmaz</strong> — tek bir reklam isteği bile gönderilmez.</li>
+    <li>Hesap oluşturmanız gerekmez. Adınızı, e-postanızı, telefonunuzu veya kişilerinizi <strong>hiçbir zaman istemiyoruz</strong>.</li>
+    <li>Analitik veya çökme raporlama yazılımı <strong>yoktur</strong>.</li>
+    <li>Açılışta <strong>18 yaşından büyük olup olmadığınız</strong> sorulur. Yanıt yalnızca cihazınızda kalır; doğum tarihi veya kimlik istenmez. <strong>18 yaş altı</strong> yanıtı verilirse uygulama yalnızca <strong>alkolsüz tarifleri</strong> gösterir.</li>
+  </ul>
+</div>
+
+<h2>İçindekiler</h2>
+<div class="toc">
+  <ol>
+    <li><a href="#s1">Veri sorumlusu</a></li>
+    <li><a href="#s2">Kapsam</a></li>
+    <li><a href="#s3">İşlenen veriler</a></li>
+    <li><a href="#s4">Toplamadığımız veriler</a></li>
+    <li><a href="#s5">Amaçlar ve hukuki sebepler</a></li>
+    <li><a href="#s6">Rızanız ve reklam kişiselleştirme</a></li>
+    <li><a href="#s7">Reklamları kaldırma</a></li>
+    <li><a href="#s8">Üçüncü taraflar ve yurt dışına aktarım</a></li>
+    <li><a href="#s9">Saklama süreleri</a></li>
+    <li><a href="#s10">Haklarınız</a></li>
+    <li><a href="#s11">Reklam kimliğini sıfırlama</a></li>
+    <li><a href="#s12">Uygulama izinleri</a></li>
+    <li><a href="#s13">Çocuklar ve yaş sınırı</a></li>
+    <li><a href="#s14">Güvenlik</a></li>
+    <li><a href="#s15">Değişiklikler</a></li>
+    <li><a href="#s16">İletişim</a></li>
+  </ol>
+</div>
+
+<h2 id="s1">1. Veri sorumlusu</h2>
+<p>
+  6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) anlamında <em>veri sorumlusu</em>,
+  GDPR anlamında <em>controller</em>:
+</p>
+<ul>
+  <li>Unvan / ad: <span class="val">Fırat Uçar</span></li>
+  <li>Adres: <span class="val">İzmir, Türkiye</span></li>
+  <li>E-posta: <span class="val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ef879c8a89869d8e9b9a8c8e9daf88828e8683c18c8082">[email&#160;protected]</a><!--email_on--></span></li>
+</ul>
+<p>
+  Reklam gösterimiyle ilgili işlemede <strong>Google</strong> (Google Ireland Limited ve
+  Google LLC) kendi amaçları bakımından <em>bağımsız veri sorumlusu</em> olarak da hareket eder.
+  Google'ın uygulamaları için bkz.
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>.
+</p>
+
+<h2 id="s2">2. Kapsam</h2>
+<p>
+  Bu politika, Google Play ve App Store üzerinden dağıtılan <strong>LUMEA — Kokteyl Rehberi</strong>
+  (paket adı <code>com.lumea.cocktails</code>) mobil uygulaması için geçerlidir.
+  Uygulamadan açılan harici bağlantılar (ör. Google'ın kendi sayfaları) bu politikanın kapsamı
+  dışındadır ve ilgili sitenin kendi politikasına tabidir.
+</p>
+
+<h2 id="s3">3. İşlenen veriler</h2>
+
+<h3>3.1 Yalnızca cihazınızda kalan bilgiler</h3>
+<p>Aşağıdakiler cihazınızın yerel depolamasında tutulur, <strong>bize veya bir sunucuya gönderilmez</strong>:</p>
+<ul>
+  <li><strong>Dil tercihi</strong> (Türkçe / İngilizce)</li>
+  <li><strong>Yaş beyanı</strong> — açılışta sorulan "18 yaşından büyük müsünüz?" sorusuna verdiğiniz
+      yanıt. Yalnızca <em>18+</em> veya <em>18 altı</em> şeklinde tutulur; doğum tarihi, yaş veya
+      kimlik bilgisi istenmez ve saklanmaz. Bu beyan hangi tariflerin gösterileceğini belirler:
+      18 yaşından küçükseniz uygulamada yalnızca alkolsüz tarifler listelenir.</li>
+  <li><strong>"Barımda ne var?" listesi</strong> — işaretlediğiniz malzemeler</li>
+  <li><strong>Reklamsız sürüm göstergesi</strong> — satın alma yaptıysanız uygulamanın çevrimdışıyken de
+      reklam göstermemesi için tutulan basit bir işaret</li>
+</ul>
+<p>Uygulamayı kaldırdığınızda bu bilgiler silinir.</p>
+
+<h3>3.2 Reklamlar (yalnızca ücretsiz sürümde)</h3>
+<p>
+  Reklamlar <strong>Google AdMob</strong> (Google Mobile Ads SDK) ile sunulur. Reklam gösterildiğinde
+  Google aşağıdaki verileri işler:
+</p>
+<table>
+  <thead>
+    <tr><th>Veri kategorisi</th><th>Örnek</th><th>Neden</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Reklam kimliği</strong></td>
+      <td>Android Reklam Kimliği (AAID), iOS'ta IDFA (yalnızca izin verirseniz)</td>
+      <td>Reklam seçimi, sıklık sınırlama, sahtecilik önleme, ölçüm</td>
+    </tr>
+    <tr>
+      <td><strong>Cihaz bilgileri</strong></td>
+      <td>Model, işletim sistemi sürümü, ekran boyutu, dil, operatör, ağ türü</td>
+      <td>Reklamın cihaza uygun boyutta ve biçimde gösterilmesi</td>
+    </tr>
+    <tr>
+      <td><strong>Yaklaşık konum</strong></td>
+      <td>IP adresinden çıkarılan ülke/şehir düzeyinde konum</td>
+      <td>Bölgesel reklam uygunluğu ve yasal yükümlülükler</td>
+    </tr>
+    <tr>
+      <td><strong>Tanılama bilgileri</strong></td>
+      <td>Uygulamanın ve reklam yazılımının performansı: açılış süresi, takılma oranı, enerji kullanımı</td>
+      <td>Reklam yazılımının kararlılığı ve performans ölçümü</td>
+    </tr>
+    <tr>
+      <td><strong>Reklam etkileşimi</strong></td>
+      <td>Reklamın gösterilmesi, görüntülenmesi, tıklanması</td>
+      <td>Raporlama ve yayıncı ödemesi</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <strong>Hassas konum (GPS) verisi kullanılmaz.</strong> Uygulama konum izni istemez.
+  Reklam verilerinin Google tarafından nasıl kullanıldığı için bkz.
+  <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener">Google — İş Ortakları için Veri Sorumluluğu</a>
+  ve
+  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google hizmetlerini kullanan uygulamalardan gelen bilgiler</a>.
+</p>
+
+<h3>3.3 Satın alma işlemleri</h3>
+<p>
+  "Reklamları kaldır" satın alması <strong>Google Play Faturalandırma</strong> üzerinden yürütülür.
+  Ödeme bilgileriniz (kart numarası, fatura adresi vb.) doğrudan Google tarafından işlenir;
+  <strong>bunları hiçbir zaman görmeyiz ve saklamayız</strong>. Uygulama yalnızca Google Play'den
+  "bu ürün satın alınmış mı?" yanıtını alır. Satın alma, Google hesabınıza bağlıdır; bu sayede
+  cihaz değiştirdiğinizde "Satın alımları geri yükle" ile yeniden etkinleştirebilirsiniz.
+</p>
+
+<h2 id="s4">4. Toplamadığımız veriler</h2>
+<p>LUMEA aşağıdakileri <strong>istemez, toplamaz ve işlemez</strong>:</p>
+<ul>
+  <li>Ad, soyad, e-posta, telefon numarası, doğum tarihi</li>
+  <li>Hassas (GPS) konum</li>
+  <li>Kişiler, takvim, fotoğraflar, dosyalar, mikrofon, kamera</li>
+  <li>Sağlık, biyometrik, din, siyasi görüş gibi <strong>özel nitelikli kişisel veriler</strong></li>
+  <li>Kullanıcı hesabı veya oturum bilgisi — <strong>uygulamada hesap sistemi yoktur</strong></li>
+</ul>
+<p>
+  Uygulamada <strong>ayrı bir analitik yazılımı yoktur</strong> (Firebase Analytics, Google
+  Analytics vb. bulunmaz) ve <strong>çökme raporlama yazılımı yoktur</strong> (Crashlytics vb.
+  bulunmaz). Hangi tarifleri okuduğunuz, hangi malzemeleri seçtiğiniz veya uygulamayı ne kadar
+  süre kullandığınız <strong>bize hiçbir şekilde iletilmez</strong>.
+  Yalnızca reklam yazılımı, yukarıdaki bölüm 3.2'de listelenen ölçüm ve tanılama verilerini
+  kendi reklam raporlaması için işler; bu verilere biz erişemeyiz.
+</p>
+
+<h2 id="s5">5. İşleme amaçları ve hukuki sebepler</h2>
+<table>
+  <thead>
+    <tr><th>Amaç</th><th>Veri</th><th>GDPR hukuki sebebi</th><th>KVKK hukuki sebebi</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Uygulamanın çalışması (dil, malzeme listesi)</td>
+      <td>Cihaz içi tercihler</td>
+      <td>Md. 6/1(b) — sözleşmenin ifası</td>
+      <td>Md. 5/2(c) — sözleşmenin ifası</td>
+    </tr>
+    <tr>
+      <td><strong>Kişiselleştirilmiş</strong> reklam gösterimi</td>
+      <td>Reklam kimliği, cihaz, yaklaşık konum</td>
+      <td>Md. 6/1(a) — <strong>açık rıza</strong></td>
+      <td>Md. 5/1 — <strong>açık rıza</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Kişiselleştirilmemiş</strong> reklam gösterimi</td>
+      <td>Sınırlı cihaz bilgisi, sahtecilik önleme</td>
+      <td>Md. 6/1(f) — meşru menfaat</td>
+      <td>Md. 5/2(f) — meşru menfaat</td>
+    </tr>
+    <tr>
+      <td>Satın alma ve geri yükleme</td>
+      <td>Play satın alma durumu</td>
+      <td>Md. 6/1(b) — sözleşmenin ifası</td>
+      <td>Md. 5/2(c) — sözleşmenin ifası</td>
+    </tr>
+    <tr>
+      <td>Hukuki yükümlülükler, kötüye kullanımın önlenmesi</td>
+      <td>Teknik kayıtlar (Google tarafında)</td>
+      <td>Md. 6/1(c) / 6/1(f)</td>
+      <td>Md. 5/2(ç) / 5/2(f)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="s6">6. Rızanız ve reklam kişiselleştirme</h2>
+<p>
+  <strong>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de</strong> bulunuyorsanız, uygulamayı ilk
+  açtığınızda Google'ın <em>User Messaging Platform</em> altyapısıyla bir <strong>rıza ekranı</strong>
+  gösterilir. Burada kişiselleştirilmiş reklamları kabul edebilir veya reddedebilirsiniz.
+</p>
+<ul>
+  <li><strong>Kabul ederseniz:</strong> reklamlar ilgi alanlarınıza göre seçilebilir.</li>
+  <li><strong>Reddederseniz:</strong> reklamlar gösterilmeye devam eder ancak
+      <strong>kişiselleştirilmez</strong>; profilleme yapılmaz.</li>
+</ul>
+<p>
+  Kararınızı istediğiniz zaman değiştirebilirsiniz: uygulamanın alt kısmındaki
+  <strong>"Reklamsız LUMEA"</strong> bölümünde yer alan <strong>"Gizlilik seçenekleri"</strong>
+  düğmesine dokunmanız yeterlidir. Bu düğme yalnızca ilgili bölgelerdeki kullanıcılara görünür.
+</p>
+<div class="box warn">
+  <h3>Türkiye'deki kullanıcılar</h3>
+  <p>
+    KVKK kapsamında kişiselleştirilmiş reklam için <strong>açık rızanız</strong> esas alınır.
+    Rıza vermediğinizde uygulama çalışmaya devam eder ve reklamlar kişiselleştirilmeden gösterilir.
+    Rızanızı geri çekmek için yukarıdaki "Gizlilik seçenekleri" adımını izleyebilir veya
+    cihazınızın reklam kimliğini silebilirsiniz (bkz. bölüm 11).
+  </p>
+</div>
+
+<h2 id="s7">7. Reklamları kaldırma</h2>
+<p>
+  Uygulama içinden <strong>"Reklamları kaldır"</strong> ürününü satın alırsanız:
+</p>
+<ul>
+  <li>Reklam yazılımı (Google Mobile Ads SDK) <strong>hiç başlatılmaz</strong>;</li>
+  <li>Reklam kimliğiniz <strong>okunmaz</strong>;</li>
+  <li>Reklamla ilgili <strong>hiçbir ağ isteği yapılmaz</strong>.</li>
+</ul>
+<p>
+  Bu, arayüzden reklamın gizlenmesi değil, reklam altyapısının tamamen devre dışı bırakılmasıdır.
+  Satın alma tek seferliktir ve aynı Google hesabıyla giriş yaptığınız tüm cihazlarda geçerlidir.
+</p>
+
+<h2 id="s8">8. Üçüncü taraflar ve yurt dışına aktarım</h2>
+<table>
+  <thead>
+    <tr><th>Alıcı</th><th>Hizmet</th><th>Politikası</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Ireland Ltd. / Google LLC</td>
+      <td>AdMob reklam sunumu, rıza yönetimi (UMP)</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td>Google Ireland Ltd. / Google LLC</td>
+      <td>Google Play Faturalandırma, uygulama dağıtımı</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td>Apple Inc. <em>(yalnızca iOS)</em></td>
+      <td>App Store dağıtımı ve satın alma</td>
+      <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <strong>Verilerinizi satmıyoruz.</strong> Reklam amacıyla Google'a aktarım, ABD dahil
+  Türkiye ve AEA dışındaki ülkelerde bulunan sunuculara veri aktarımı anlamına gelebilir.
+  Bu aktarımlar GDPR bakımından <strong>Standart Sözleşme Hükümleri</strong> ve
+  <strong>AB–ABD Veri Gizliliği Çerçevesi</strong>; KVKK bakımından ise
+  <strong>açık rıza</strong> veya Kurul tarafından öngörülen diğer mekanizmalar temelinde yapılır.
+</p>
+
+<h2 id="s9">9. Saklama süreleri</h2>
+<ul>
+  <li><strong>Cihazınızdaki tercihler:</strong> siz silene veya uygulamayı kaldırana kadar.</li>
+  <li><strong>Reklam verileri:</strong> bizde saklanmaz. Google'ın saklama süreleri için
+      Google'ın kendi politikası geçerlidir.</li>
+  <li><strong>Satın alma kaydı:</strong> Google Play hesabınıza bağlıdır; bizde bir kopyası tutulmaz.</li>
+</ul>
+<p>Bizim işlettiğimiz hiçbir sunucu veya veri tabanı bulunmadığı için bizde saklanan kişisel veri yoktur.</p>
+
+<h2 id="s10">10. Haklarınız</h2>
+<p><strong>KVKK m. 11</strong> ve <strong>GDPR m. 15–22</strong> uyarınca şu haklara sahipsiniz:</p>
+<ul>
+  <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme ve bunlara erişme</li>
+  <li>Düzeltilmesini, silinmesini veya yok edilmesini isteme</li>
+  <li>İşlemeye itiraz etme ve işlemenin kısıtlanmasını isteme</li>
+  <li>Verilerinizin taşınabilirliğini talep etme</li>
+  <li>Verdiğiniz rızayı dilediğiniz zaman geri çekme</li>
+  <li>Aleyhinize sonuç doğuran otomatik analizlere itiraz etme</li>
+  <li>Zarara uğramanız hâlinde tazminat talep etme</li>
+</ul>
+<p>
+  Taleplerinizi <span class="val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="95fde6f0f3fce7f4e1e0f6f4e7d5f2f8f4fcf9bbf6faf8">[email&#160;protected]</a><!--email_on--></span> adresine iletebilirsiniz;
+  en geç <strong>30 gün</strong> içinde yanıtlıyoruz. Bizde size ait bir kayıt bulunmadığı için
+  erişim ve silme talepleri çoğunlukla Google'a yönlendirilmelidir; bu konuda size yol gösteririz.
+  Ayrıca KVKK kapsamında <strong>Kişisel Verileri Koruma Kurulu'na</strong>, GDPR kapsamında ise
+  bulunduğunuz ülkedeki <strong>denetim makamına</strong> şikâyette bulunma hakkınız saklıdır.
+</p>
+<h3>Kaliforniya (CCPA/CPRA) sakinleri</h3>
+<p>
+  Kişisel bilgilerinizi <strong>satmıyoruz</strong>. Ancak kişiselleştirilmiş reklam,
+  CPRA anlamında <em>"bağlamlar arası davranışsal reklamcılık için paylaşım"</em> sayılabilir.
+  Bunu devre dışı bırakmak için uygulamadaki <strong>"Gizlilik seçenekleri"</strong> ekranını
+  kullanabilir, cihazınızın reklam kişiselleştirmesini kapatabilir veya
+  <strong>"Reklamları kaldır"</strong> ürününü satın alabilirsiniz.
+</p>
+
+<h2 id="s11">11. Reklam kimliğinizi sıfırlama veya silme</h2>
+<ul>
+  <li><strong>Android:</strong> Ayarlar → Google → Tüm hizmetler → Reklamlar →
+      <em>Reklam kimliğini sıfırla</em> veya <em>Reklam kimliğini sil</em>.
+      Sildiğinizde uygulamalar kişiselleştirme için kimliğe erişemez.</li>
+  <li><strong>iOS:</strong> Ayarlar → Gizlilik ve Güvenlik → İzleme →
+      <em>Uygulamaların izleme isteğine izin ver</em> kapalıysa IDFA paylaşılmaz.
+      LUMEA'nın iOS sürümü izleme izni istediğinde <strong>"İzleme Verme"</strong> diyebilirsiniz;
+      uygulama tüm özellikleriyle çalışmaya devam eder.</li>
+</ul>
+
+<h2 id="s12">12. Uygulama izinleri</h2>
+<p>Android sürümünün talep ettiği izinler ve gerekçeleri:</p>
+<table>
+  <thead><tr><th>İzin</th><th>Neden gerekli</th></tr></thead>
+  <tbody>
+    <tr><td><code>INTERNET</code></td><td>Reklam yükleme ve satın alma doğrulaması. Tarifler için kullanılmaz.</td></tr>
+    <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Reklam yazılımının bağlantı durumunu kontrol etmesi.</td></tr>
+    <tr><td><code>AD_ID</code></td><td>Reklam kimliğine erişim (Android 13+).</td></tr>
+    <tr><td><code>com.android.vending.BILLING</code></td><td>"Reklamları kaldır" satın alması.</td></tr>
+    <tr><td><code>ACCESS_ADSERVICES_*</code></td><td>Android Privacy Sandbox reklam API'leri; Google reklam yazılımı tarafından eklenir.</td></tr>
+    <tr><td><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code></td><td>Google Play hizmetleri tarafından otomatik eklenir; uygulama bunları doğrudan kullanmaz.</td></tr>
+    <tr><td><code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></td><td>Uygulamaya özel, imza düzeyinde dâhilî bir izindir. Yalnızca uygulamanın kendi bileşenlerinin birbirine mesaj göndermesini sınırlar; hiçbir veriye erişim sağlamaz ve başka uygulamalar tarafından kullanılamaz.</td></tr>
+  </tbody>
+</table>
+<p>
+  <strong>Konum, kamera, mikrofon, kişiler, depolama veya rehber izni istenmez.</strong>
+</p>
+
+<h2 id="s13">13. Çocuklar ve yaş sınırı</h2>
+<p>
+  LUMEA alkollü içecek tarifleri içerir ve <strong>18 yaşından küçükler için uygun değildir</strong>.
+  Uygulama çocuklara yönelik değildir; çocuklardan bilerek veri toplamayız.
+  Reklam yazılımı, çocuklara yönelik muamele <em>kapalı</em> ve yaş sınırı <em>18+</em> olacak şekilde
+  yapılandırılmıştır. 18 yaşından küçük birinin verisinin işlendiğini fark edersek derhal sileriz;
+  böyle bir durumu <span class="val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b0d8c3d5d6d9c2d1c4c5d3d1c2f0d7ddd1d9dc9ed3dfdd">[email&#160;protected]</a><!--email_on--></span> adresine bildirebilirsiniz.
+</p>
+<p>Lütfen sorumlu tüketin. Alkol, sağlığınız için zararlı olabilir.</p>
+
+<h2 id="s14">14. Güvenlik</h2>
+<p>
+  Uygulama bizim işlettiğimiz bir sunucuya bağlanmaz; dolayısıyla bizde sızdırılabilecek bir
+  kullanıcı veri tabanı yoktur. Reklam ve satın alma trafiği <strong>TLS ile şifrelenir</strong>.
+  Uygulama paketi yayın anahtarıyla imzalanır; Google Play Uygulama İmzalama kullanılır.
+</p>
+
+<h2 id="s15">15. Bu politikadaki değişiklikler</h2>
+<p>
+  Politika değiştiğinde bu sayfadaki "Son güncelleme" tarihini güncelleriz. Önemli değişikliklerde
+  uygulama içinde bilgilendirme yaparız. Reklam kapsamının genişlemesi gibi rızanızı etkileyen
+  değişikliklerde rıza ekranı yeniden gösterilir.
+</p>
+<p><strong>Sürüm geçmişi:</strong></p>
+<ul>
+  <li><strong>2.0 — 30 Eylül 2026:</strong> Uygulamaya reklam (Google AdMob) ve "Reklamları kaldır"
+      satın alması eklendi. Reklam kimliği işleme, rıza yönetimi, yurt dışına aktarım ve izin
+      bölümleri eklendi.</li>
+  <li><strong>1.0 — 25 Eylül 2026:</strong> İlk sürüm (tamamen çevrimdışı, veri toplamayan uygulama).</li>
+</ul>
+
+<h2 id="s16">16. İletişim</h2>
+<p>
+  Gizlilikle ilgili her türlü soru, talep ve şikâyet için:
+  <strong><span class="val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a4ccd7c1c2cdd6c5d0d1c7c5d6e4c3c9c5cdc88ac7cbc9">[email&#160;protected]</a><!--email_on--></span></strong>
+</p>
+
+<footer>
+  LUMEA — Dünya Kokteyl Rehberi · <code>com.lumea.cocktails</code><br>
+  Tarif verileri <a href="https://www.thecocktaildb.com/" target="_blank" rel="noopener">TheCocktailDB</a> açık veri kaynağından derlenmiştir.<br>
+  Bu belge bilgilendirme amaçlıdır ve hukuki danışmanlık yerine geçmez.
+</footer>
+
+</main>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
